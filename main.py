@@ -8,9 +8,8 @@ if __name__ == "__main__":
     eel.start('Dashboard.html', mode='electron', block=False, size=(800, 480))
 
 
-percent = 0
+percent = 75
 while True:
     eel.updateBatteryHandler(percent)
     eel.sleep(0.1)
-    percent = percent + 1
     print(percent)
