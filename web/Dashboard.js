@@ -34,19 +34,8 @@ jQuery.extend(jQuery.easing, {
     },
 });
 let perc = 2;
-eel.expose(setPercent);
-function setPercent(perValue) {
-    perc = perValue
-}
 
 $(document).ready(function(){
-
-    async function run() {
-
-    }
-
-    run()
-
 
     var s = document.styleSheets[0];
 
