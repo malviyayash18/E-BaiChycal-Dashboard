@@ -33,7 +33,7 @@ jQuery.extend(jQuery.easing, {
         return -c * (t /= d) * (t - 2) + b;
     },
 });
-let perc = 0;
+let perc = 2;
 eel.expose(setPercent);
 function setPercent(perValue) {
     perc = perValue
